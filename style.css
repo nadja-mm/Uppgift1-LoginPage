@@ -1,3 +1,84 @@
-title{
-    background-color: antiquewhite;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #35281c;
+}
+
+.wrapper{
+    width:420px;
+    background-color: #957364b9;
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    margin: 30px 0;
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    font-size: 15px;
+    color:#734444;
+    padding: 20px;
+}
+
+.wrapper .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 10px 0 10px;
+}
+
+.wrapper .login-button, .register-button {
+    width: 100%;
+    height: 50px;
+    background: rgb(72, 100, 72);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(42, 37, 37);
+    font-size: 15px;
+    color: white;
+}
+
+.register-button:hover{
+    background-color: rgb(21, 45, 21);
+}
+
+.login-button:hover{
+    background-color: rgb(21, 45, 21);
+}
+
+.wrapper .register-button{
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.eller{
+    text-align: center;
+    margin: 10px 0 5px;
 }
